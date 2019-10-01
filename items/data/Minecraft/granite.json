@@ -1,0 +1,7 @@
+{
+    "name": "Granite",
+    "item": "minecraft:stone",
+    "id": 1,
+    "data":1,
+    "gatherable": "yes"
+}

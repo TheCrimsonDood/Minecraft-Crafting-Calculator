@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:forging",
+    "id": 1,
+    "gatherable": "no",
+    "pattern": [
+        "   ",
+        " S ",
+        "   "
+    ],
+    "key": {
+        "S": {
+            "type": "forge:ore_dict",
+            "ore": "cobblestone"
+        }
+    },
+    "result": {
+        "item": "refinedstorage:machine_casing"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "name": "Block of Iron",
+    "item":"minecraft:iron_block",
+    "id":42,
+    "gatherable": "no",
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "iii",
+        "iii",
+        "iii"
+    ],
+    "key":
+    {
+        "i":
+        {
+            "type":"forge:ore_dict",
+            "ore":"ingotIron"
+        }
+    },
+    "result":
+    {
+        "item": "minecraft:Iron_block",
+        "count":1
+    }
+}

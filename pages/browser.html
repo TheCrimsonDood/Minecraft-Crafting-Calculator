@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- TODO: Modal selectionPanel weiter bearbeiten -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="Minecraft, Crafting, Calculator, MCC">
+    <link rel="stylesheet" href="../css/browser.css">
+    <link rel="stylesheet" href="../css/cookie.css">
+    <title>Minecraft Crafting Calculator</title>
+    <script type="text/javascript" language="javascript" src="../js/jQuery.js"></script>
+    <!-- <script src="../pages/assets/images/Crafting Table.png"></script> -->
+</head>
+
+<body>
+
+    <header id=mainHeader>
+        <div id=logo>
+            <img src="../pages/assets/images/Logo.png" alt="MCC Logo">
+
+        </div>
+        <nav id=navbar>
+            <!-- <li id="current" class="button" current><a href="#">Calculator</a></li> -->
+            <a class='button-link' href="./index.html">
+                <li class="button">
+                    <P class="buttonText">Home</P>
+                </li>
+            </a>
+            <a class='button-link' href="browser.html">
+                <li class="button" id="current">
+                    <p class="buttonText">Browser</p>
+                </li>
+            </a>
+            <!-- <a class='button-link' href="#">
+                <li class="button">
+                    <P class="buttonText">Calculator</P>
+                </li>
+            </a> -->
+            <!-- <li class=button><a href="#">Button 3</a></li> -->
+        </nav>
+    </header>
+
+    <main id=mainArea>
+
+        <aside id="sideArea">
+            <p>sideArea</p>
+        </aside>
+
+        <div id=calculatorArea>
+
+            <div id="itemsToCraftPanel">
+                <h3 class=areaHeader>
+                    Items to craft
+                </h3>
+                <p class='genericText'>
+                    Select the Mods to use.
+                </p>
+                <div id="modTable">
+                </div>
+            </div>
+
+            <a class='button-link' href="#">
+                <li id='itemSelect' class="button">
+                    <P class="buttonText">Select Items</P>
+                </li>
+            </a>
+        </div>
+
+    </main>
+    <footer>
+        Footer
+    </footer>
+    <div id="overlay" class="deactive"></div>
+
+    <script type="application/javascript" src="../js/addAnItem.js"></script>
+    <script type="application/javascript" src="../js/cookie.js"></script>
+    <script type="application/javascript" src="../js/onClick.js"></script>
+
+</body>
+
+</html>

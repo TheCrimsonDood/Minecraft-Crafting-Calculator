@@ -1,0 +1,26 @@
+{
+    "name": "Iron Door",
+    "item":"minecraft:iron_door",
+    "id":71,
+    "gatherable": "no",
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "ii ",
+        "ii ",
+        "ii "
+    ],
+    "key":
+    {
+        "i":
+        {
+            "type":"forge:ore_dict",
+            "ore":"ingotIron"
+        }
+    },
+    "result":
+    {
+        "item": "minecraft:iron_door",
+        "count":1
+    }
+}

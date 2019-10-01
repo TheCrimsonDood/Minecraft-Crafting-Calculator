@@ -1,0 +1,28 @@
+{
+    "name": "Polished Granite",
+    "item":"minecraft:stone",
+    "id":1,
+    "data":2,
+    "gatherable": "no",
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "   ",
+        "gg ",
+        "gg "
+    ],
+    "key":
+    {
+        "g":
+        {
+            "item":"minecraft:stone",
+            "data":1
+        }
+    },
+    "result":
+    {
+        "item": "minecraft:stone",
+        "count":1,
+        "data":2
+    }
+}

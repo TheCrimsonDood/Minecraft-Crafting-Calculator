@@ -1,0 +1,157 @@
+.button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-top: 3px solid rgba(255, 255, 255, 0.66);
+  border-left: 3px solid rgba(255, 255, 255, 0.66);
+  border-bottom: 6px solid rgba(0, 0, 0, 0.33);
+  border-right: 6px solid rgba(0, 0, 0, 0.33);
+  background: url(../pages/assets/images/button-background-normal.png) repeat;
+  min-height: 50px;
+  cursor: pointer;
+}
+
+.button-link {
+  text-decoration: none;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+
+.buttonText {
+  font-size: 20px;
+  margin: auto;
+  color: white;
+}
+
+.button:hover {
+  background: url(../pages/assets/images/button-background-hover.png);
+}
+
+.areaHeader {
+  text-align: center;
+  background-color: #e6e6e6;
+  border-radius: 0.5em;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border: solid 1px #cccccc;
+}
+
+.genericText {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+}
+
+html {
+  background-color: #d4d4d4d4;
+  background: url(../pages/assets/images/background.jpg) repeat;
+  overflow: scroll;
+}
+
+html body {
+  background-color: #fff;
+  width: 70%;
+  margin: auto;
+  margin-top: 2em;
+}
+
+html body #mainHeader {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 4.5em;
+      grid-template-rows: 4.5em;
+  padding: 1em 0;
+  background: url(../pages/assets/images/header.png) 32px 32px;
+  margin: auto;
+}
+
+html body #mainHeader #logo {
+  position: relative;
+  margin: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  top: -2.5em;
+}
+
+html body #mainHeader #navbar {
+  list-style: none;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+html body #mainHeader #navbar #current {
+  background: url(../pages/assets/images/button-background-active.png);
+  border: 0;
+  min-height: 59px;
+}
+
+html body #mainArea {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 4fr;
+      grid-template-columns: 1fr 4fr;
+  border-top: 1px solid #000;
+  background-color: #c776b5;
+  margin: 0;
+  padding-bottom: 1em;
+}
+
+html body #mainArea #sideArea {
+  background-color: yellow;
+  width: 90%;
+  margin: 5vh auto 0;
+}
+
+html body #mainArea #calculatorArea {
+  width: 80%;
+  margin: 5vh auto 0;
+}
+
+html body #mainArea #calculatorArea #instructionPanel {
+  background-color: #c4c4c4;
+  border-radius: 0.5em;
+  -webkit-box-shadow: 1px 1px 22px 3px rgba(0, 0, 0, 0.23);
+          box-shadow: 1px 1px 22px 3px rgba(0, 0, 0, 0.23);
+}
+
+html body #mainArea #calculatorArea #itemsToCraftPanel {
+  background-color: #fff;
+  border-radius: 0.5em;
+  -webkit-box-shadow: 1px 1px 22px 3px rgba(0, 0, 0, 0.23);
+          box-shadow: 1px 1px 22px 3px rgba(0, 0, 0, 0.23);
+}
+
+html body #mainArea #calculatorArea #itemsToCraftPanel .genericText {
+  font-size: 25px;
+}
+
+html body #mainArea #calculatorArea #itemsToCraftPanel #addItemButton {
+  padding-bottom: 0.5em;
+  display: none;
+}
+
+html body #mainArea #calculatorArea #itemsToCraftPanel #addItemButton .button {
+  width: 90%;
+  margin: auto;
+  min-height: 2em;
+}
+
+html body #mainArea .genericText {
+  width: 90%;
+  margin: auto;
+  padding-bottom: 1em;
+}
+
+html body footer {
+  background-color: orangered;
+  padding: 20px 0;
+}
+/*# sourceMappingURL=main.css.map */

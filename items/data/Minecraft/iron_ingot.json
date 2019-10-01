@@ -1,0 +1,6 @@
+{
+    "name": "Iron Ingot",
+    "item": "minecraft:iron_ingot",
+    "id": 265,
+    "gatherable": "yes"
+}
